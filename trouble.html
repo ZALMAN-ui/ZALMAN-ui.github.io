@@ -4,15 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frogs of the Rainforest</title>
-<link rel="stylesheet" href="frogscss">
+    <link href="more.css" rel="stylesheet" type="text/css"/>
+  <!--I fixed the link by adding the . so the css will work I used rel to determine what kind of file it was and text to define the content we are using inside the file-->
 </head>
 <body>
-<div id=topbar>
-<h1>🐸 Frogs of the Rainforest
-<h2> Name</h2>
+<div id="topbar">
+  <!--I added ""s to define the beginning and end of an attribute’s value-->
+<h1>🐸 Frogs of the Rainforest </h1>
+  <!--I added the closing h1 tag which was causing a bug that the website doesnt know where the container ends-->
+<h2> Zalman</h2>
 </div>
 <div class="panel">
 <h2>Meet the Frogs<h2>
+  <!--I added the / to the closing h2 tag because it tells that browser where the element ends-->
 <p>Frogs are incredible amphibians that live on every continent except Antarctica. Their
 smooth, moist skin helps them breathe through it.</p>
 </div>
@@ -20,21 +24,26 @@ smooth, moist skin helps them breathe through it.</p>
 <h2>Life Cycle</h2>
 <p>Frogs begin life as eggs in water, hatch into tadpoles, and grow legs as they transform
 into adult frogs. This is called metamorphosis.</p>
+</div> 
+  <!-- I added the closing div tag so the browser knows when the container ends-->
 <div id="pond">
 <p>Here’s a “pond” — the parent container.</p>
 <div id="tadpole">
-<p>I'm positioned <strong>absolutely</strange> within my parent!</p>
+<p>I'm positioned <strong>absolutely</strong> within my parent!</p>
+  <!--I corrected the typo strange to strong so the browser will correct where the bold ends and starts-->
 </div>
 </div>
 <div class="panel">
 <h2>Behavior</h3>
 <p>Many frogs are nocturnal. They use sticky tongues to catch insects and call loudly to
 attract mates.</p>
+</div>
+  <!--I added the closing div tag so that the browser know when the container ends-->
 <div id="fun-fact">
-<p><strong>Fun Fact: Some frogs can leap more than 20 times their body length!</p>
-
+<p><strong>Fun Fact: Some frogs can leap more than 20 times their body length!</strong></p>
+<!--I added the closing strong tag so the brower knows what it being bolded and where it ends-->
 </div>
-</div>
+<!-- I removed the extra closing div tag because it has no purpose-->
 <div id="footer">
 <p>© 2025 Frogs of the Rainforest</p>
 </div>
