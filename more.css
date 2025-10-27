@@ -9,7 +9,8 @@ position: fixed;
 top 0;
 width: 100%;
 background-color: #2e8b57;
-colour: white;
+color: white;
+  /*Color was spelled colour so the css didnt know what it meant and it didnt work*/
 text-align: center;
 padding: 20px 0;
 z-index: 5;
@@ -21,13 +22,15 @@ background-color: white;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 pudding: 30px;
+  /* padding was spelled pudding so the code doesn't work as thats not a element*/
 position: relative;
 }
 #pond {
-
 position: relative;
-background-color: a5f0a0;
-padding: 25pz;
+background-color: #a5f0a0;
+  /* The hex code was missing a # before the letters and numbers to show that it is a hex code*/
+padding: 25px;
+  /* px was spelled pz which is the wrong spelling making a bug*/
 border-radius: 8px;
 margin-top: 25px;
 }
@@ -39,6 +42,8 @@ background-color: #6dcf78;
 color: white;
 padding: 10px;
 border-radius: 6px;
+}
+/* 
 
 #fun-fact {
 background-color: #c7f7b5;
