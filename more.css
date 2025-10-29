@@ -5,7 +5,7 @@ background-color: #dfffe0;
   /* I was missing a ending } at the end of the element and it didnt know where to end*/
 color: #083b0a;
 }
-.topbar {
+topbar {
 position: fixed;
 top 0;
 width: 100%;
