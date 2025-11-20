@@ -1,3 +1,10 @@
 .sushi1{ 
   border-radius: 10%;
   }
+.three-images {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;          
+  width: 100%;                   
+  padding: 20px;                  
+}
