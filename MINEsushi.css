@@ -1,10 +1,23 @@
 .sushi1{ 
-  border-radius: 10%;
+  border-radius: 15%;
+   width: 650px;
+  height: 300px;
   }
-.three-images {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;          
-  width: 100%;                   
-  padding: 20px;                  
-}
+.tea{ 
+  border-radius: 30%;
+   position: relative;
+  top: -300px
+  }
+.sushi2{ 
+  border-radius: 30%;
+   float: left;
+   position: relative;
+  top: -300px
+  }
+.door{ 
+  border-radius: 15%;
+  width: 650px;
+   float: center;
+   position: relative;
+  top: -200px
+  }
