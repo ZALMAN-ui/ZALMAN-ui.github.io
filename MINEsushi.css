@@ -7,7 +7,7 @@
 
 .sushi1 { 
   border-radius: 15%;
-  width: 800px;
+  width: 650px;
   height: 300px;
   display: block;
 }
@@ -40,11 +40,13 @@
 }
 .tea{ 
   border-radius: 30%;
+  width:300px;
    position: relative;
   top: -300px
   }
 .sushi2{ 
   border-radius: 30%;
+  width:300px;
    float: left;
    position: relative;
   top: -300px
