@@ -56,14 +56,13 @@
   width: 700px;
    float: center;
    position: relative;
-  top: -350px
+  top: -460px
   }
 .uber{
- border-radius: 20%;
   width: 250px;
    float: center;
    position: relative;
-  top: -225px;
+  top: -400px;
   }
 
 .bottom-text-container {
