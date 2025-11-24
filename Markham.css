@@ -1,12 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="Markham.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document Title</title>
-</head>
-<body>
+ .a-font{
+   display: block;
+      color: white;
+      text-align: center;
+      padding: 25px 30px;
+   font-family: "Roboto", sans-serif;  
+   font-size: 30px;
+   font-weight: bold;
+  }
+.image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+}
 
-</body>
-</html>
+.image-row img {
+    width: 500px; 
+  border-radius: 15px;
+}
+
+.image-row2 {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+}
+
+.image-row2 img {
+    width: 500px; 
+  border-radius: 15px;
+}
+.Menu5{
+  width:1020px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+    top:5px;
+}
+.Menu6{
+  width:1020px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+    top:5px;
+}
