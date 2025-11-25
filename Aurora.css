@@ -7,27 +7,31 @@
    font-size: 30px;
    font-weight: bold;
   }
+/* This makes the title's font and makes the size and positioning */
+
 .image-row {
     display: flex;
     justify-content: center; 
     gap: 20px;               
 }
-
+/*  Makes the menu have a gap and centered in the middle*/
 .image-row img {
     width: 500px; 
   border-radius: 15px;
 }
-
+/* makes the first row of lunch menus have the same width and corner rounding */
 .image-row2 {
     display: flex;
     justify-content: center; 
     gap: 20px;               
 }
+/* makes the 2nd row have the same gap as the first*/
 
 .image-row2 img {
     width: 500px; 
   border-radius: 15px;
 }
+/* makes the 2nd row of lunch menus have the same width and corner rounding */
 .Menu5{
   width:1020px;
     display: block;
@@ -36,6 +40,7 @@
    position: relative;
     top:5px;
 }
+/* Makes the dinner menu right below the lunchmenus and below the second title*/
 .Menu6{
   width:1020px;
     display: block;
@@ -44,3 +49,4 @@
    position: relative;
     top:5px;
 }
+/* Makes the dinner menu right below the 1st one and below the second title*/
